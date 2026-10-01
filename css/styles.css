@@ -1,7 +1,7 @@
 /* =====================================================================
-   GDR Concrete Construction LLC — Homepage
+   B&F Concrete — Homepage
    Design system: concrete repair & construction × editorial
-   Brand: sky blue (#2EA3F2) on charcoal — matches the site
+   Brand: construction orange on charcoal
    ===================================================================== */
 
 /* ---------- Design tokens ---------- */
@@ -140,7 +140,7 @@ ul, ol { margin: 0; padding: 0; list-style: none; }
 .logo__mark { flex: none; height: 82px; width: auto; display: block; color: var(--graphite); }
 .site-header[data-scrolled] .logo__mark { height: 62px; transition: height .3s var(--ease); }
 
-/* text logo (GDR has no real logo — built as type) */
+/* text logo (B&F text logo) */
 .logo__text { display: flex; flex-direction: column; line-height: 1; border-left: 3px solid var(--accent); padding-left: 13px; }
 .logo__text-main { font-family: var(--font-display); font-weight: 900; font-size: clamp(1.35rem, 2.2vw, 1.72rem); letter-spacing: -.01em; color: #ffffff; text-transform: none; }
 .logo__text-accent { color: var(--accent); }
